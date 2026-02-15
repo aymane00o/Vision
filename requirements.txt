@@ -1,0 +1,12 @@
+# Core vision libraries
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# YOLOv8 boat detection
+ultralytics>=8.0.0
+
+# PyTorch — install manually with CUDA support:
+# py -3.11 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+# For CPU only:
+# py -3.11 -m pip install torch torchvision torchaudio

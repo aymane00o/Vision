@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+manimations/
+
+# YOLOv8 model weights (too large for GitHub)
+*.pt
+*.weights
+*.onnx
+*.engine
+
+# Detection outputs
+boat_detections/
+output_*.jpg
+output_*.mp4
+screenshot_*.jpg
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+runs/
